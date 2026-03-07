@@ -1,10 +1,12 @@
 RTB Register Query Tool
 
-Note:  You need just a little programming knowledge to use this script.  Just enough to install the runtime environment (python, selenium and chrome driver).
+Usage: python rtbscraper.py config_template
+
+Note: You need just a little programming knowledge to use this script.  Just enough to install the runtime environment (python, selenium and chrome driver).
 
 This python script takes a config file containing an Eircode, the details of a reference property (dwelling type, BER, bedroom number, and floor space) and the ranges you want to query for similar properties (dwelling types, BER ratings, numbers of bedrooms and range of floor space).
 
-The output is a csv file.  The first 10 rows are the hits from the RTB Register for the reference property, including match score.  Sunsequent rows are all further properties returned from querying the additional ranges.
+The output is a csv file.  The first 10 rows are the hits from the RTB Register for the reference property, including match score.  Subsequent rows are all further properties returned from querying the additional ranges.
 Each property found is added only once (this is why further match scores are not included).
 The Tenancy Start date and Year updated are parsed out of the RT Number, so they are only as accurate as the RT number suggests.
 
