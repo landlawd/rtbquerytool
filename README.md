@@ -1,3 +1,5 @@
+RTB Register Query Tool
+
 Note:  You need just a little programming knowledge to use this script.  Just enough to install the runtime environment (python, selenium and chrome driver).
 
 This python script takes a config file containing an Eircode, the details of a reference property (dwelling type, BER, bedroom number, and floor space) and the ranges you want to query for similar properties (dwelling types, BER ratings, numbers of bedrooms and range of floor space).
