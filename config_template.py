@@ -1,9 +1,9 @@
 # --------------------------------------------------
 # RTB SCRAPER INPUT DATA
 # 
-# 1) Location criteria: Eircode.  Optionally also local authority and electoral area, but in the code they are now autopopulated from the address.
-# 2) Reference property details: Dwelling type, BER, Bedrooms and Floor size
-# 3) Ranges to search for comparable properties: Dwelling type, BER, Bedrooms and Floor size
+# 1) Reference property details: Eircode, Dwelling type, BER, Bedrooms and Floor size.
+
+# 2) Ranges to search for comparable properties: Eircodes (one or more), Dwelling type, BER, Bedrooms and Floor size
 #    The number of permutations determine the script runtime... be careful!
 # 
 # The code contains the possibility to set the local authority and electoral area from the config file, but this is not currently used.
@@ -23,18 +23,22 @@
 
 # Query data - template
 
-EIRCODE = "D03W5N0" 
+# 1) Reference property
+reference_eircode = "D03W5N0"
 # local_authority_value = "xx" # not currently used in the code
 # electoral_area_value = "xxxxxxxxx" # not currently used in the code
-
 reference_dwelling_type = "100"  # House
 reference_ber = "7" # C1
 reference_bedrooms = 3
 reference_floor_space = 83
 
-# other values to query
+# 2) Comparable properties to query.
+# THE FIRST EIRCODE MUST BE THE SAME AS THE REFERENCE PROPERTY
+# AND THE OTHER EIRCODES MUST ALL BE IN THE SAME ELECTORAL AREA
+# (otherwise they won't be useful comparables!)
+comparable_eircodes = ["D03W5N0", "D03RR40", "D03NH39", "D03E362","D03PC91","D05E096"]
 dwelling_types = ["100"]  # House
-ber_values = ["4","5"] 
-bedrooms = [3,4]
-floor_range = range(80,90) # queries from low value to high value minus one, using the incremement below
+ber_values = ["4","5","6","7","8","9","10","11"]
+bedrooms = [3,4,5]
+floor_range = range(70,140) # queries from low value to high value, using the incremement below
 floor_space_incr = 5
