@@ -36,9 +36,10 @@ reference_floor_space = 83
 # THE FIRST EIRCODE MUST BE THE SAME AS THE REFERENCE PROPERTY
 # AND THE OTHER EIRCODES MUST ALL BE IN THE SAME ELECTORAL AREA
 # (otherwise they won't be useful comparables!)
-comparable_eircodes = ["D03W5N0", "D03RR40", "D03NH39", "D03E362","D03PC91","D05E096"]
+comparable_eircodes = ["D03W5N0", "D03RR40"]
 dwelling_types = ["100"]  # House
-ber_values = ["4","5","6","7","8","9","10","11"]
-bedrooms = [3,4,5]
-floor_range = range(70,140) # queries from low value to high value, using the incremement below
+ber_values = ["7","8"]
+bedrooms = [3,4]
+floor_range = range(80,95) # queries from low value to high value, using the incremement below
 floor_space_incr = 5
+
