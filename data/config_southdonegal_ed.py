@@ -26,8 +26,10 @@ reference_eircode = "F94N232"
 # electoral_area_value = "1350404" # Donegal
 reference_dwelling_type = "100"  # House
 reference_ber = "9" # C3
-reference_bedrooms = 3
-reference_floor_space = 100
+reference_bedrooms = 2
+reference_floor_space = 50
+# reference_bedrooms = 3
+# reference_floor_space = 100
 
 # 2) Comparable properties to query.
 # THE FIRST EIRCODE MUST BE THE SAME AS THE REFERENCE PROPERTY
