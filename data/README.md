@@ -56,7 +56,7 @@ Data sets created using this tool.  All eircodees used in these tests were taken
     <td>B1-E1</td>
     <td>1-2</td>
     <td>45-70</td>
-    <td>44</td>
+    <td>34</td>
     <td>config_southdonegal_ed.py</td>
     <td>combined_results_SouthDonegal_Houses_45-70sqm_20260310.csv</td>
   </tr>
