@@ -6,9 +6,9 @@ Data sets created using this tool.  All eircodees used in these tests were taken
     <td><b>BER</b></td>
     <td><b>Beds</b></td>
     <td><b>Sq.m.</b></td>
+    <td><b>Result count</b></td>
     <td><b>Config file (input)</b></td>
     <td><b>Results file</b></td>
-    <td><b>Property count</b></td>
   </tr>
   <tr>
     <td>Dublin 8</td>
@@ -16,9 +16,9 @@ Data sets created using this tool.  All eircodees used in these tests were taken
     <td>A3-D2</td>
     <td>1-3</td>
     <td>30-70</td>
+    <td>450</td>
     <td>config_dublin8_ed.py</td>
     <td>combined_results_Dublin8_Apartments_30-70sqm_20260310.csv</td>
-    <td>0</td>
   </tr>
   <tr>
     <td>Firhouse/Bohernabreena</td>
@@ -26,9 +26,9 @@ Data sets created using this tool.  All eircodees used in these tests were taken
     <td>B1-D2</td>
     <td>3-5</td>
     <td>70-140</td>
+    <td>201</td>
     <td>config_firhouse_ed.py</td>
     <td>combined_results_Firhouse_Houses_70-140sqm_20260310.csv</td>
-    <td>0</td>
   </tr>
   <tr>
     <td>Clontarf</td>
@@ -36,9 +36,9 @@ Data sets created using this tool.  All eircodees used in these tests were taken
     <td>B1-D2</td>
     <td>3-5</td>
     <td>70-140</td>
+    <td>187</td>
     <td>config_clontarf_ed.py</td>
     <td>combined_results_Clontarf_Houses_70-140sqm_20260309.csv</td>
-    <td>0</td>
   </tr>
   <tr>
     <td>Donegal</td>
@@ -46,9 +46,9 @@ Data sets created using this tool.  All eircodees used in these tests were taken
     <td>B1-E1</td>
     <td>3-5</td>
     <td>70-170</td>
+    <td>103</td>
     <td>config_southdonegal_ed.py</td>
     <td>combined_results_SouthDonegal_Houses_70-140sqm_20260310.csv</td>
-    <td>0</td>
   </tr>
     <tr>
     <td>Donegal</td>
@@ -56,8 +56,8 @@ Data sets created using this tool.  All eircodees used in these tests were taken
     <td>B1-E1</td>
     <td>1-2</td>
     <td>45-70</td>
+    <td>44</td>
     <td>config_southdonegal_ed.py</td>
     <td>combined_results_SouthDonegal_Houses_45-70sqm_20260310.csv</td>
-    <td>0</td>
   </tr>
 </table>
