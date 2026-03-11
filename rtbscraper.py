@@ -14,7 +14,7 @@
 #   Having said that, I don't recommend running it for a long time with a very wide criteria.  
 #   For one thing, if it fails, you have no output because it writes to csv only at the end (possible enhancement noted below).
 #   Also, there is a quickly diminishing return. In the above test of 416 queries, the result set already had 85 entries after 48 queries, 
-#   and just 126 after 416. 
+#   and just 126 after 416.
 #
 #   Finally: be careful about the risk of getting blocked by the RTB.  I establish a foreign VPN connection when running the script 
 #   so I don't get my home IP blocked.
@@ -25,6 +25,7 @@
 # Author: Landlawd 2026.03.07
 #   2026.03.09 added multiple eircodes for comparable propertiees
 #   2026.03.09 improved logic to reduce number of queries (break floor space loop when no new results)
+#   2026.03.10 save console log also to file
 # --------------------------------------------------
 
 from selenium import webdriver
@@ -60,7 +61,31 @@ except Exception as e:
     print(f"Unexpected error loading config file: {e}")
     sys.exit(1)
 
+# --------------------------------------------------
+# LOG TO FILE AS WELL AS CONSOLE
+# --------------------------------------------------
+
+log_filename = f"rtb_log_{config.reference_eircode}.txt"
+log_file = open(log_filename, "w", encoding="utf-8")
+
+class Tee:
+    def __init__(self, *files):
+        self.files = files
+    def write(self, obj):
+        for f in self.files:
+            f.write(obj)
+            f.flush()
+    def flush(self):
+        for f in self.files:
+            f.flush()
+
+sys.stdout = Tee(sys.stdout, log_file)
+
+
+# This message is here so it goes to both log outputs
 print(f"Loaded configuration: {config_name}")
+
+
 
 # --------------------------------------------------
 # Function to build a list of floor spaces from min to max, iterating from the outside in.
