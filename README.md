@@ -14,4 +14,6 @@ The latest version contains optimized logic to reduce the number of queries (bre
 
 Everything else is written in the code file header comments. 
 
+Output data from large-scale test runs in the data folder.
+
 Use at your own risk.
