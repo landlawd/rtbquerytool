@@ -31,6 +31,16 @@ Data sets created using this tool.  All eircodees used in these tests were taken
     <td>combined_results_Firhouse_Houses_70-140sqm_20260310.csv</td>
   </tr>
   <tr>
+    <td><b>NEW!</b> Firhouse/Bohernabreena</td>
+    <td>House</td>
+    <td>A1-D2, Exempt</td>
+    <td>3-5</td>
+    <td>70-140</td>
+    <td>215</td>
+    <td>config_firhouse_ed.py (modified to add BER ranges Ax and Exempt)</td>
+    <td>combined_results_Firhouse_Houses_70-140sqm_widerBER_20260311.csv</td>
+  </tr>
+  <tr>
     <td>Clontarf</td>
     <td>House</td>
     <td>B1-D2</td>
@@ -39,6 +49,16 @@ Data sets created using this tool.  All eircodees used in these tests were taken
     <td>187</td>
     <td>config_clontarf_ed.py</td>
     <td>combined_results_Clontarf_Houses_70-140sqm_20260309.csv</td>
+  </tr>
+  <tr>
+    <td><b>NEW!</b> Clontarf</td>
+    <td>House</td>
+    <td>A1-D2, Exempt</td>
+    <td>3-5</td>
+    <td>70-140</td>
+    <td>267</td>
+    <td>config_clontarf_ed.py (modified to add BER ranges Ax and Exempt)</td>
+    <td>combined_results_Clontarf_Houses_70-140sqm_widerBER_20260311.csv</td>
   </tr>
   <tr>
     <td>Donegal</td>
