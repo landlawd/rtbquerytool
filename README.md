@@ -5,8 +5,8 @@ Note: You need just a little IT/programming knowledge to use thse script.  Just 
 <b>RTB Query Tool</b>
 <p>
 Usage: python rtbscraper.py <config_file>
-Example: python rtbscraper.py config_dublin8_ed
-Output: csv file containing all found matching properties
+<br>Example: python rtbscraper.py config_dublin8_ed
+<br>Output: csv file containing all found matching properties
 
 This python script takes a config file containing the details of a reference property (eircode, dwelling type, BER, bedroom number, and floor space) and the ranges you want to query for similar properties (multiple eircodes in same ED, dwelling types, BER ratings, numbers of bedrooms and range of floor space).
 
@@ -25,9 +25,10 @@ Use at your own risk.
 <b>RTB Matchfilder tool</b>
 <p>
 Usage: python matchfinder.py <config file>
-Example: python matchfinder.py matchfinder_testdata_pembroke.py
-Output: csv file containing 10 best matches following the advertised RTB algorithm, e.g. comparables_Pembroke.csv
+<br>Example: python matchfinder.py matchfinder_testdata_pembroke.py
+<br>Output: csv file containing 10 best matches following the advertised RTB algorithm, e.g. comparables_Pembroke.csv
 
-This python script takes an already scraped data set and simulates the RTB algorithm as published to find 10 matching properties (https://rtb.ie/rtb-rent-register/).
-Note that the RTB rent register tool itself does not correctly follow this described algorithm, so the results of this matchfinder tool will not match the RTB rent register inself.
+This python script takes an already scraped data set and simulates the RTB algorithm as described on their webpage to find 10 matching properties (https://rtb.ie/rtb-rent-register/).
+
+Note that the RTB rent register tool itself does not correctly follow their own algorithm as described, so the results of this matchfinder tool will not actually match the RTB rent register inself.
 It seems the RTB rent register query tool also considers proximity to the reference property address, perhaps the electoral subdivision is used for this, and it does not sort as described.
