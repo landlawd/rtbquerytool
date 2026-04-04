@@ -2,6 +2,8 @@ RTB Register Query Tools
 
 Note: You need just a little IT/programming knowledge to use thse script.  Just enough to install the runtime environment (python, selenium and chrome driver), edit a config file, and run the python script.
 
+<b>Data analysis</b>
+
 Analysis based on use of these tools can be found in the discussion thread on AskAboutMoney https://www.askaboutmoney.com/threads/rtb-rent-register.243258, notably the following posts:
 
 <table>
@@ -52,7 +54,7 @@ Output data from large-scale test runs are stored in the data folder.
 
 Use at your own risk.
 
-<b>RTB Matchfilder tool</b>
+<b>RTB Matchfinder tool</b>
 <p>
 Usage: python matchfinder.py  &lt;config_file&gt;
 <br>Example: python matchfinder.py matchfinder_testdata_pembroke.py
