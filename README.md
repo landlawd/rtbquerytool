@@ -1,6 +1,6 @@
 RTB Register Query Tools
 
-Note: You need just a little IT/programming knowledge to use thse script.  Just enough to install the runtime environment (python, selenium and chrome driver), edit a config file, and run the python script.
+Note: You need just a little IT/programming knowledge to use these scripts.  Just enough to install the runtime environment (python, selenium and chrome driver), edit a config file, and run the python script.
 
 <b>Data analysis</b>
 
