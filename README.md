@@ -2,6 +2,36 @@ RTB Register Query Tools
 
 Note: You need just a little IT/programming knowledge to use thse script.  Just enough to install the runtime environment (python, selenium and chrome driver), edit a config file, and run the python script.
 
+Analysis based on use of these tools can be found in the discussion thread on AskAboutMoney https://www.askaboutmoney.com/threads/rtb-rent-register.243258, notably the following posts:
+
+<table>
+  <tr>
+    <td>Posts regarding data gathered<br>using rtbscraper tool</td>
+    <td>https://www.askaboutmoney.com/threads/rtb-rent-register.243258/post-1987140
+    <br>https://www.askaboutmoney.com/threads/rtb-rent-register.243258/post-1987143
+    <br>https://www.askaboutmoney.com/threads/rtb-rent-register.243258/post-1987294
+    <br>https://www.askaboutmoney.com/threads/rtb-rent-register.243258/post-1987309
+    <br>https://www.askaboutmoney.com/threads/rtb-rent-register.243258/post-1987951
+    <br>https://www.askaboutmoney.com/threads/rtb-rent-register.243258/post-1987990
+    <br>https://www.askaboutmoney.com/threads/rtb-rent-register.243258/post-1987992
+    <br>https://www.askaboutmoney.com/threads/rtb-rent-register.243258/post-1988010
+    <br>https://www.askaboutmoney.com/threads/rtb-rent-register.243258/post-1988041
+    <br>https://www.askaboutmoney.com/threads/rtb-rent-register.243258/post-1988702</td>
+  </tr>
+  <tr>
+    <td>Posts regarding RTB register not returning <br>results as their page describes</td>
+    <td> https://www.askaboutmoney.com/threads/rtb-rent-register.243258/post-1988668
+    <br>https://www.askaboutmoney.com/threads/rtb-rent-register.243258/post-1988702</td>
+  </tr>
+  <tr>
+    <td>Posts with analysis of rent distribution<br> in various surveyed areas</td>
+    <td>https://www.askaboutmoney.com/threads/rtb-rent-register.243258/post-1989805
+    <br>https://www.askaboutmoney.com/threads/rtb-rent-register.243258/post-1989809
+    <br>https://www.askaboutmoney.com/threads/rtb-rent-register.243258/post-1989871
+    </td>
+  </tr>
+</table>
+
 <b>RTB Query Tool</b>
 <p>
 Usage: python rtbscraper.py &lt;config_file, see config_template.py&gt;
