@@ -1,3 +1,10 @@
+# -----------------------------
+# Usage: python matchfinder.py <config file>
+# Example: python matchfinder.py matchfinder_testdata_pembroke.py
+# Output: csv file containing 10 best matches following the advertised RTB algorithm, e.g. comparables_Pembroke.csv
+# -----------------------------
+# -----------------------------
+
 import pandas as pd
 
 
