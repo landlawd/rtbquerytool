@@ -1,6 +1,6 @@
 RTB Register Query Tools
 
-Note: You need just a little programming knowledge to use this script.  Just enough to install the runtime environment (python, selenium and chrome driver).
+Note: You need just a little IT/programming knowledge to use thse script.  Just enough to install the runtime environment (python, selenium and chrome driver), edit a config file, and run the python script.
 
 <b>RTB Query Tool</b>
 <p>
@@ -18,7 +18,7 @@ The latest version contains optimized logic to reduce the number of queries (bre
 
 Everything else is written in the code file header comments. 
 
-Output data from large-scale test runs in the data folder.
+Output data from large-scale test runs are stored in the data folder.
 
 Use at your own risk.
 
