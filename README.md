@@ -4,7 +4,7 @@ Note: You need just a little IT/programming knowledge to use thse script.  Just 
 
 <b>RTB Query Tool</b>
 <p>
-Usage: python rtbscraper.py <config_file>
+Usage: python rtbscraper.py &lt;config_file, see config_template.py&gt;
 <br>Example: python rtbscraper.py config_dublin8_ed
 <br>Output: csv file containing all found matching properties
 
@@ -24,7 +24,7 @@ Use at your own risk.
 
 <b>RTB Matchfilder tool</b>
 <p>
-Usage: python matchfinder.py <config file>
+Usage: python matchfinder.py  &lt;config_file&gt;
 <br>Example: python matchfinder.py matchfinder_testdata_pembroke.py
 <br>Output: csv file containing 10 best matches following the advertised RTB algorithm, e.g. comparables_Pembroke.csv
 
